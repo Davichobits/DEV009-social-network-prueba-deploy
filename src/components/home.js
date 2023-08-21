@@ -1,5 +1,5 @@
 import { logInWithGoogle } from '../lib/index.js';
-import logo from './images/logo.png';
+import logo from '../images/logo.png';
 
 function home(navigateTo) {
   const main = document.createElement('main');

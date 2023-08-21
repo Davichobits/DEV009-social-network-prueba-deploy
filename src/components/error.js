@@ -1,4 +1,4 @@
-import logo from './images/logo.png';
+import logo from '../images/logo.png';
 
 function error(navigateTo) {
   const main = document.createElement('main');

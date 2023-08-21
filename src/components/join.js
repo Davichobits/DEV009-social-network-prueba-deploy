@@ -1,5 +1,5 @@
 import { createAccount } from '../lib/index.js';
-import logo from './images/logo.png';
+import logo from '../images/logo.png';
 
 function join(navigateTo) {
   const main = document.createElement('main');

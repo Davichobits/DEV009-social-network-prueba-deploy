@@ -3,10 +3,10 @@ import {
   signOutSession,
   displayUserPosts,
 } from '../lib/index.js';
-import navHome from './images/home.png';
-import navUser from './images/user.png';
-import navPosts from './images/posts.png';
-import navSignOut from './images/sign-out.png';
+import navHome from '../images/home.png';
+import navUser from '../images/user.png';
+import navPosts from '../images/posts.png';
+import navSignOut from '../images/sign-out.png';
 
 function postsByCurrentUser(navigateTo) {
   const user = auth.currentUser;

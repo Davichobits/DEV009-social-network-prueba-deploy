@@ -1,10 +1,10 @@
 import { auth, onAuthStateChanged } from '../firebase/initializeFirebase.js';
 import { signOutSession } from '../lib/index.js';
-import navHome from './images/home.png';
-import navUser from './images/user.png';
-import navPosts from './images/posts.png';
-import navSignOut from './images/sign-out.png';
-import logo from './images/logo.png';
+import navHome from '../images/home.png';
+import navUser from '../images/user.png';
+import navPosts from '../images/posts.png';
+import navSignOut from '../images/sign-out.png';
+import logo from '../images/logo.png';
 
 function profile(navigateTo) {
   const main = document.createElement('main');
