@@ -1,5 +1,5 @@
 import { logInWithEmail, resetPassword } from '../lib/index.js';
-import logo from '../images/logo.png';
+import logo from '../images/logo.png' 
 
 function login(navigateTo) {
   const main = document.createElement('main');

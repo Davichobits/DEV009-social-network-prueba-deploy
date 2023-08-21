@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  background-image: url('components/images/background.png');
+  background-image: url('./images/background.png');
   background-size: auto;
   font-family: 'Glegoo', serif;
 }
