@@ -25,9 +25,9 @@ import {
   doc,
   updateDoc,
 } from '../firebase/initializeFirebase.js';
-import logo from '../components/images/logo.png';
-import deleteIcon from '../components/images/delete.png';
-import editIcon from '../components/images/edit.png';
+import logo from '../images/logo.png';
+import deleteIcon from '../images/delete.png';
+import editIcon from '../images/edit.png';
 
 export const createAccount = (email, password, username) => {
   return createUserWithEmailAndPassword(auth, email, password)
